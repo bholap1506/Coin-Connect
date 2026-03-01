@@ -149,7 +149,7 @@ const Home = () => {
         <h2 className="text-3xl font-bold text-white mb-8">Active Campaigns</h2>
         <div className="flex flex-col  gap-6">
           {campaigns.map(campaign => (
-            <div key={campaign.id} className="bg-gradient-to-br from-orange-500 to-orange-600 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3flex flex-col gap-6rounded-2xl p-6 shadow-xl max-w-4xl">
+            <div key={campaign.id} className="bg-gradient-to-br from-orange-500 to-orange-600rounded-xl  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3flex flex-col gap-6rounded-2xl p-6 shadow-xl max-w-4xl">
               <div className="flex items-center justify-between mb-4">
                 <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-white text-xs font-bold">
                   {campaign.badge}
